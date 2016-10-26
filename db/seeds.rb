@@ -7,7 +7,7 @@ end
 50.times do
   Event.create(
     name: Faker::Hipster.sentence,
-    registeredapplication_id: RegisteredApplication.all.ids.sample
+    registered_application_id: RegisteredApplication.all.ids.sample
   )
 end
 puts "Seed finished"
